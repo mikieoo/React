@@ -105,6 +105,9 @@ export default function Example2() {
             <TableRow {...employees[0]} />
             <TableRow {...employees[1]} />
             <TableRow {...employees[2]} /> */}
+
+            <TableHeader />
+            {employees.map((employee, index) => <TableRow key={index} {...employee} />)}
         </div>
     );
 }
