@@ -6,8 +6,9 @@ import './App.css';
 // import ConditionalRender from './component_manage/ConditionalRender';
 // import Example2 from './component_manage/example/Example2';
 // import ListRender from './component_manage/ListRender';
-import EventComponent from './interaction/EventComponent';
-import StateComponent from './interaction/StateComponent';
+// import EventComponent from './interaction/EventComponent';
+// import StateComponent from './interaction/StateComponent';
+import ForwardingComponent from './interaction/ForwardingComponent';
 
 function App() {
   return (
@@ -20,7 +21,8 @@ function App() {
       {/* <Example2 /> */}
       {/* <ListRender /> */}
       {/* <EventComponent /> */}
-      <StateComponent />
+      {/* <StateComponent /> */}
+      <ForwardingComponent />
     </> 
   );
 }
