@@ -63,12 +63,5 @@ function SubComponent() {
             <SubComponent />
         </div>
     )
-
-    return (
-        <div>
-            <div>{state1} <button onClick={onState1Add}>state1 +</button></div>
-            <div>{state2} <button onClick={onState2Add}>state2 +</button></div>
-            <SubComponent />
-        </div>
-    )
+    
 }
