@@ -45,6 +45,11 @@ export default function Axios() {
         params: { 'time': '1213' }
     })
 
+    // CORS error
+    // - Cross Origin Resource Sharing
+    // - javascript를 이용한 request 요청시 출처가 다른 요청에 대하여 자원 공유 정책
+    axios.get('http://naver.com')
+
     return (
         <div>Axios</div>
     )
